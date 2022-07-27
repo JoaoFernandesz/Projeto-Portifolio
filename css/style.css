@@ -4,6 +4,20 @@ header {
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: 3px 3px 0 grey ;;
+    font-family: "Press Start 2P";
+    line-height: 1.;
+    transition: 300ms linear;
+
+}   
+
+h1:hover {
+    color: red;
 }
 
 nav {
@@ -20,6 +34,8 @@ a {
    font-family: "Fira Code", Arial, Helvetica, sans-serif;
    font-weight: 500;
    margin-right: 30px;
+   transition: 300ms linear;
+
 }
 
 a::before {
@@ -28,8 +44,23 @@ a::before {
     width: 10px;
     height: 10px;
     margin-right: 10px;
+    transition: 300ms linear;
+
 }
 
+a:hover {
+    transform: scale(1.1);
+
+}
+
+a:hover::before {
+    content: "";
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    transform: scale(1.1);
+}
 
 #button {
     display: inline-block;
@@ -37,4 +68,12 @@ a::before {
     padding: 18px 20px; 
     box-shadow: 5px 5px 0 grey ;
     margin-right: 0;
+    transition: 200ms cubic-bezier(0.29, -0.59, 0.34, 2.38);
+}
+
+#button:hover {
+    background-color: red; 
+    transform: scale(1.1);
+    cursor: crosshair;
+
 }
