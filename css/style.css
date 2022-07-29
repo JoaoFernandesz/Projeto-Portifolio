@@ -79,15 +79,4 @@ a:hover::before {
 
 }
 
-h1{
-    font-family: "press start 2p", sans-serif;
-    font-size: 40px;
-    color: yellow;
-    text-shadow: 3px 3px 0 grey ;
 
-}
-
-h2{
-    font-family: "press start 2p", sans-serif;
-    text-shadow: 3px 3px 0 grey ;
-}
