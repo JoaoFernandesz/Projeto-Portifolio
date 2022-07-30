@@ -3,7 +3,8 @@
     background-color: black;
     box-shadow: 10px 10px 0 grey;
     text-align: center;
-    padding: 42px 44px;
+    padding: 42px 44px; 
+    margin-top: 40px;
 }
 
 .box .title {
