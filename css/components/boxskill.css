@@ -1,0 +1,25 @@
+.level {
+    height: 30px;
+    width: 320px;
+    left: 115px;
+    top: 51px;
+    background-color: white;
+    border: 10px solid black;
+    margin: 16px 0 4px;
+}
+
+.nameskill {
+    color: black;
+    font-family: "press start 2p", sans-serif;
+    font-size: 25px;
+
+}
+
+.boxskills {
+    display: inline-flex;
+    align-items: center;
+}
+
+.imgskills {
+    margin-right: 25px;
+}
