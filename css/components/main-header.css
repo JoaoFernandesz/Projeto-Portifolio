@@ -1,4 +1,4 @@
-.header {
+.main-header {
     background-color: black; 
     border-bottom: 10px solid gray;
     padding: 10px 20px;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.header .navigation {
+.main-header .navigation {
     text-align: right ;
 }
 

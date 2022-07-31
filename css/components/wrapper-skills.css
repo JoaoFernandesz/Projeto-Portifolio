@@ -9,12 +9,12 @@
     margin-right: auto;
 }
 
-.wrapper-skill .boxskills {
+.wrapper-skill .skill-tec {
     width: 430px;
     margin-bottom: 38px;
 }
 
-.wrapper-skill .boxskills:nth-child(odd) {
+.wrapper-skill .skill-tec:nth-child(odd) {
     margin-right: 100px;
 }
 
