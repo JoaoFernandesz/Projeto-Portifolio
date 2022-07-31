@@ -1,25 +1,32 @@
 .level {
-    height: 30px;
+    height: 40px;
     width: 320px;
-    left: 115px;
-    top: 51px;
-    background-color: white;
-    border: 10px solid black;
+    border: 5px solid black;
     margin: 16px 0 4px;
 }
 
-.nameskill {
-    color: black;
-    font-family: "press start 2p", sans-serif;
-    font-size: 25px;
-
+.level::-webkit-progress-bar {
+    background-color: white;
+    
+}
+.level::-webkit-progress-value {
+    background-color: purple;
+    
 }
 
 .boxskills {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    font-family: "press start 2p", sans-serif;
+    color: black;
+    font-size: 25px;
 }
 
 .imgskills {
     margin-right: 25px;
+}
+
+.right {
+    display: inline-flex;
+    flex-direction: column;
 }
