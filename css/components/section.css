@@ -1,13 +1,7 @@
 .section {
-    height: 740px;
+    height: 640px;
     background-color: yellow;
     border-bottom: 10px solid black;
-    padding: 50px 240px 100px;
+    padding: 70px 0 100px;
 }
 
-.line {
-    justify-content: space-around;
-    display: flex;
-    margin-bottom: 60px;
-    margin-top: 60px;
-}

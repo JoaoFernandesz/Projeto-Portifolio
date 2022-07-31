@@ -1,0 +1,23 @@
+.wrapper-skill {
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    display: flex;
+    max-width: 960px;
+    margin-bottom: 60px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper-skill .boxskills {
+    width: 430px;
+    margin-bottom: 38px;
+}
+
+.wrapper-skill .boxskills:nth-child(odd) {
+    margin-right: 100px;
+}
+
+.wrapper-skill .level {
+    width: 320px;
+}

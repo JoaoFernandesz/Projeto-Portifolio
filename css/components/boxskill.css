@@ -1,6 +1,5 @@
 .level {
     height: 40px;
-    width: 320px;
     border: 5px solid black;
     margin: 16px 0 4px;
 }
@@ -24,6 +23,7 @@
 
 .imgskills {
     margin-right: 25px;
+    width: 90px;
 }
 
 .right {
