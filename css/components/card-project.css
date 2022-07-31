@@ -1,0 +1,27 @@
+.card-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0 white;
+}
+
+.card-project.-blue {
+    background: blue;
+}
+
+#imggraph {
+    font-size: 130px;
+    color: black;
+    text-shadow: 3px 3px 0 grey ;
+    font-family: "Press Start 2P", sans-serif;
+    line-height: 1.;
+    transition: 300ms linear;
+
+}   
+
+#imggraph:hover {
+    color: red;
+}
