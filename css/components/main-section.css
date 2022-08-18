@@ -3,6 +3,7 @@
     background-color: yellow;
     border-bottom: 10px solid black;
     padding: 70px 0 100px;
+    width: 100%;
 }
 
 .main-section.-bggrey {
@@ -11,4 +12,12 @@
 
 .main-section.-bdFirst {
     border-color: yellow;
+}
+
+.main-section.-bgRed {
+    background-color: red;
+}
+
+.main-section.-bdBlack {
+    border-color: black;
 }
